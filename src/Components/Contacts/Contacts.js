@@ -13,6 +13,7 @@ export default class Contacts extends React.Component {
         <input id="blabla" />
         <input id="blabla" />
         <input id="blabla" />
+        dfsfdsf
       </div>
     );
   }
