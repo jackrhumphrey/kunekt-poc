@@ -12,13 +12,13 @@ export default class DBC extends React.Component {
     return (
       <div>
         <div className="qr-img">
-          <img src={qr} alt="QR Code" style={{ width: '200px', height: '200px', backgroundColor: 'red' }}/>
+          <img src={qr} alt="QR Code" style={{ width: '200px', height: '200px' }}/>
           <hr></hr>
         </div>
         <div>
-          <h3>Private</h3>
-          <h3>Work</h3>
-          <h3>Custom</h3>
+          <h3 className='title'>Private</h3>
+          <h3 className='title'>Work</h3>
+          <h3 className='title'>Custom</h3>
         </div> 
       </div>
     );
