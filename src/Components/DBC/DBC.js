@@ -2,6 +2,7 @@ import React from "react";
 import qr from '../../qr.png'
 
 
+
 export default class DBC extends React.Component {
   constructor(props) {
     super(props);
@@ -10,12 +11,15 @@ export default class DBC extends React.Component {
   render() {
     return (
       <div>
-        <img src={qr} alt="QR Code" style={{ width: '200px', height: '200px' }}/>
-        <hr></hr>
-        This is DBC
-        <input id="blabla" />
-        <input id="blabla" />
-        <input id="blabla" />
+        <div className="qr-img">
+          <img src={qr} alt="QR Code" style={{ width: '200px', height: '200px', backgroundColor: 'red' }}/>
+          <hr></hr>
+        </div>
+        <div>
+          <h3>Private</h3>
+          <h3>Work</h3>
+          <h3>Custom</h3>
+        </div> 
       </div>
     );
   }
