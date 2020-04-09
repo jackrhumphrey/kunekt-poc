@@ -32,7 +32,7 @@ export default class DBC extends React.Component {
 >>>>>>> parent of 11b3f38... added QR image to DBC component
 =======
 >>>>>>> parent of 11b3f38... added QR image to DBC component
-        This is DBC
+        This is DBC...
         <input id="blabla" />
         <input id="blabla" />
         <input id="blabla" />
