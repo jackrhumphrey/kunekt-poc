@@ -1,11 +1,5 @@
 import React from "react";
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 11b3f38... added QR image to DBC component
-=======
->>>>>>> parent of 11b3f38... added QR image to DBC component
 
 export default class DBC extends React.Component {
   constructor(props) {
@@ -15,9 +9,6 @@ export default class DBC extends React.Component {
   render() {
     return (
       <div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         <div className="qr-img">
           <img src={qr} alt="QR Code" style={{ width: '200px', height: '200px' }}/>
           <hr></hr>
@@ -27,16 +18,11 @@ export default class DBC extends React.Component {
           <h3 className='title'>Work</h3>
           <h3 className='title'>Custom</h3>
         </div> 
-=======
-=======
->>>>>>> parent of 11b3f38... added QR image to DBC component
-=======
->>>>>>> parent of 11b3f38... added QR image to DBC component
-        This is DBC
+
+        This is DBC!
         <input id="blabla" />
         <input id="blabla" />
         <input id="blabla" />
->>>>>>> parent of 11b3f38... added QR image to DBC component
       </div>
     );
   }
