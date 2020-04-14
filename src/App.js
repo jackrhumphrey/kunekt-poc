@@ -2,13 +2,14 @@ import React from "react";
 import "./App.css";
 import Contacts from "./Components/Contacts/Contacts";
 import DBC from "./Components/DBC/DBC";
-import Stylesheets from "./Components/Stylesheets"
+import dbcStylesheet from "./Stylesheets/DBC/dbcStylesheet";
+
 
 function App() {
   return (
     <div className="App">
       <DBC />
-      <Stylesheets />
+      <dbcStylesheet />
     </div>
   );
 }
