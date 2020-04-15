@@ -2,11 +2,37 @@
     margin-top: 3%;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
 .title {
-    display: inline;
-    padding: 10%;
+    display: inline-flex;
+    
 }
 
 .contact-opt {
-    background: grey;
+    background: #797676;
+    padding: 1%;
+    display: inline-flex;
+    margin: auto;
+    margin-bottom: 1%;
+    border-radius: 25px;
+    width: 96%;
+}
+
+.contact-icon {
+    width: 36px;
+    height: 36px;
+    margin-left: 2%;
+    padding-top: 2%;
+}
+
+.contact-descption {
+    color: #fff;
+    margin-left: 5%;
+    align-items: center;
 }
