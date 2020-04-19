@@ -2,16 +2,22 @@
     margin-top: 3%;
 }
 
-.container {
+.DBC-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
     margin: auto;
 }
 
-.title {
-    display: inline-flex;
-    
+.title-container {
+    display: flex;
+}
+
+.titles {
+    width: 600px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .contact-opt {
