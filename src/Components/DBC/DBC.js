@@ -7,6 +7,7 @@ import tw from "../../Images/twitter.png"
 import wb from "../../Images/web.png"
 import yt from "../../Images/youtube.png"
 import li from "../../Images/linkedin.png"
+import "../../Stylesheets/DBC/DBC.css"
 
 
 export default class DBC extends React.Component {
