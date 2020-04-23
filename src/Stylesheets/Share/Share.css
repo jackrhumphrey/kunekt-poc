@@ -5,7 +5,7 @@
 .DBC-container {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 25px;
 }
 
 .title-container {
@@ -23,12 +23,10 @@
 .contact-opt {
     background: #797676;
     padding: 1%;
-    display: inline-flex;
+    display: flex;
     margin: auto;
     margin-bottom: 1%;
-    border-radius: 25px;
-    width: 96%;
-}
+    border-radius: 25px;}
 
 .contact-icon {
     width: 36px;

@@ -8,9 +8,9 @@ import tw from "../../Images/twitter.png"
 import wb from "../../Images/web.png"
 import yt from "../../Images/youtube.png"
 import li from "../../Images/linkedin.png"
-import "../../Stylesheets/DBC/DBC.css"
+import "../../Stylesheets/Share/Share.css"
 
-export default class DBC extends React.Component {
+export default class Share extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -26,7 +26,7 @@ export default class DBC extends React.Component {
       <div className="DBC-container">
         <div className="qr-container">
           <div className="qr-img">
-            <img src={qr} alt="QR Code" style={{ width: '150px', height: '150px' }}/>
+            <img src={qr} alt="QR Code" style={{ width: '150px', height: '150px', display: 'block', margin: 'auto' }}/>
             <hr></hr>
           </div>  
         </div>
